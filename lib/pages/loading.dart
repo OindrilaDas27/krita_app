@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:souvenir/pages/home.dart';
+import 'package:souvenir/mainPage.dart';
 
 class LoadingPage extends StatefulWidget {
   @override
