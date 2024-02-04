@@ -1,6 +1,6 @@
 {
-    "name": "souvenir",
-    "short_name": "souvenir",
+    "name": "krita",
+    "short_name": "krita",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

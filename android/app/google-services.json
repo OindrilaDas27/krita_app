@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "413394692252",
+    "project_id": "krita-test",
+    "storage_bucket": "krita-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413394692252:android:5957253e3364777e862559",
+        "android_client_info": {
+          "package_name": "com.example.krita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413394692252-grl2g65chst774j6rkdkogljqfdc14dr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krita",
+            "certificate_hash": "d6a4a3aa239e2687c9fef7bb1755a885ba1e2a98"
+          }
+        },
+        {
+          "client_id": "413394692252-nr95mkgjfil51q7u4cf5tnp2doh0gocd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krita",
+            "certificate_hash": "9897e5a11c4eae841741ec9967d8aecf6510571b"
+          }
+        },
+        {
+          "client_id": "413394692252-jh6q0ojvtgig2caith1r3ijg9m5onfdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlIbQI9H6TKxruP9nlnBv4EiBZtu0Sqpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413394692252-7ioqrvkrjdtp8sjll2s90ar6714vm83r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "413394692252-hmi3uem8evbjeg0iso3ojv3pe7taq3fl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.krita"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
