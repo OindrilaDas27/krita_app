@@ -1,17 +1,17 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:souvenir/mainPage.dart';
 import 'package:souvenir/signup.dart';
+import 'package:souvenir/pages/loading.dart';
+
 
 void main() {
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -19,6 +19,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      initialRoute: '/loading',
+      routes: {
+        '/loading': (context) => LoadingPage(),
+        '/home': (context) => MyHomePage(),
+      },
       home: MyHomePage(),
     );
   }
